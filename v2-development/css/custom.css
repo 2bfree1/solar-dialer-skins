@@ -1,0 +1,92 @@
+/**
+ * Solar Dialer v2 Skin - Custom CSS
+ * 
+ * Place this file in /var/www/html/agc_v2/css/custom.css
+ * 
+ * WARNING: Most VICIdial styling is inline or JavaScript-generated.
+ * CSS overrides have LIMITED effect. Use !important liberally.
+ * 
+ * This file survives VICIdial upgrades.
+ */
+
+/* ==========================================================================
+   Base Overrides
+   ========================================================================== */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif !important;
+}
+
+/* ==========================================================================
+   Button Styling (Limited Effect)
+   ========================================================================== */
+
+input[type="submit"],
+input[type="button"] {
+    cursor: pointer !important;
+    border-radius: 3px !important;
+}
+
+/* ==========================================================================
+   Table Styling (Limited Effect - tables have inline BGCOLOR)
+   ========================================================================== */
+
+table {
+    border-collapse: collapse !important;
+}
+
+td {
+    padding: 2px 4px !important;
+}
+
+/* ==========================================================================
+   Header Area
+   ========================================================================== */
+
+/* Agent name display area */
+.agent_status_display {
+    font-weight: bold !important;
+}
+
+/* ==========================================================================
+   Status Colors (Usually JavaScript-controlled, CSS has limited effect)
+   ========================================================================== */
+
+/* These selectors may not match due to inline styles */
+.status_ready {
+    background-color: #90EE90 !important;
+}
+
+.status_pause {
+    background-color: #FFFF99 !important;
+}
+
+.status_incall {
+    background-color: #87CEEB !important;
+}
+
+/* ==========================================================================
+   Custom Branding - Solar Dialer
+   ========================================================================== */
+
+/* Solar Dialer brand colors:
+ * Primary Blue: #015B91
+ * Secondary: #D9E6FE
+ * Accent: #003366
+ */
+
+/* Add any Solar Dialer specific styling here */
+
+/* Hide elements example:
+.some-element-to-hide {
+    display: none !important;
+}
+*/
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+    /* Hide non-essential elements for printing */
+}
